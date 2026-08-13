@@ -1,0 +1,16 @@
+node_modules
+.next
+out
+build
+.DS_Store
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+
+# Archivos de entorno: nunca se suben con valores adentro.
+.env
+.env*.local
+
+# Excepción a propósito: .env.local va VACÍO en el repo, para que nadie
+# tenga que crearlo a mano el día del taller. No lo llenes y lo subas.
+!.env.local
